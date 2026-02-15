@@ -1,59 +1,113 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🍎 FreshMart: Solusi Belanja Buah Segar Digital
+FreshMart adalah platform e-commerce berbasis web yang dirancang untuk memberikan pengalaman belanja buah premium secara daring. Aplikasi ini mengedepankan kemudahan navigasi, visual produk yang menarik, dan proses manajemen keranjang yang efisien.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi ini dibangun menggunakan framework Laravel 12, Tailwind CSS, dan Alpine.js untuk menciptakan antarmuka yang responsif dan interaktif (low-friction shopping).
 
-## About Laravel
+📸 Analisis Antarmuka & Fitur Utama
+Berdasarkan implementasi antarmuka yang telah dibangun, berikut adalah fitur-fitur unggulannya:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Hero Section & Branding (Visual Appeal)
+Halaman depan dirancang untuk langsung menarik perhatian pengguna dengan Copywriting yang kuat.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img width="1901" height="938" alt="image" src="https://github.com/user-attachments/assets/3a7c15cf-60f3-4a31-91b9-de970660552d" />
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Headline Dinamis: "Keajaiban Buah Segar Setiap Hari" yang menekankan kualitas produk.
 
-## Learning Laravel
+Visualisasi Produk: Penggunaan gambar berkualitas tinggi untuk membangun kepercayaan pelanggan.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Call to Action (CTA): Tombol "Mulai Belanja Sekarang" untuk mengarahkan pengguna langsung ke katalog.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. Keunggulan Layanan (Value Proposition)
+Seksi ini menjelaskan mengapa pelanggan harus memilih FreshMart:
 
-## Laravel Sponsors
+<img width="1891" height="827" alt="image" src="https://github.com/user-attachments/assets/d5a3a0e5-9129-4578-972b-d2894901cf88" />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Pengiriman Cepat: Menjamin kondisi buah tetap dingin dan segar sampai di tujuan.
 
-### Premium Partners
+Harga Terjangkau: Strategi harga kompetitif tanpa mengurangi kualitas premium.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Kualitas Terjamin: Proses sortir ketat untuk setiap produk yang dikirim.
 
-## Contributing
+3. Katalog Produk Interaktif
+Menampilkan daftar buah dengan informasi harga yang jelas dan sistem interaksi cepat.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/e3274032-b98e-4ca3-8c37-17da3cd29cb4" />
 
-## Code of Conduct
+Koleksi Buah Segar: Tampilan kartu (card) produk yang rapi (Contoh: Apel Fuji, Jeruk Sunkist, Alpukat Mentega).
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Sistem Add-to-Cart: Tombol "+ Keranjang" yang terintegrasi dengan sistem session untuk penyimpanan pesanan sementara.
 
-## Security Vulnerabilities
+4. Smart Shopping Cart (Manajemen Keranjang)
+Fitur keranjang yang informatif untuk memantau pesanan sebelum checkout.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="1917" height="832" alt="image" src="https://github.com/user-attachments/assets/77e8381a-10b3-42db-990d-629971b2757f" />
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Notifikasi Real-time: Pesan sukses (Contoh: "Alpukat Mentega berhasil ditambah!") muncul saat produk dimasukkan ke keranjang.
+
+Ringkasan Pesanan: Perhitungan subtotal dan total harga secara otomatis.
+
+Badge Keranjang: Indikator jumlah item (angka merah) pada ikon keranjang di navigasi atas.
+
+🧠 Struktur Logika (Alur Data)
+Alur Pemilihan Produk (Create to Cart):
+
+Frontend: Pengguna mengklik tombol "+ Keranjang" pada produk pilihan.
+
+Controller: CartController menangani request, memeriksa ketersediaan stok, dan memasukkan data ke dalam session atau tabel carts.
+
+Feedback: Sistem memicu alert sukses dan memperbarui badge jumlah item di Navbar secara instan.
+
+Manajemen Keranjang (Read & Update):
+
+Sistem memanggil data dari database/session untuk menampilkan nama produk, harga satuan, jumlah, dan subtotal di halaman /keranjang.
+
+🛠️ Detail Teknis (Tech Stack)
+Framework: Laravel 12 (Arsitektur MVC).
+
+Database: MySQL (Tabel users, products, categories, dan orders).
+
+Frontend:
+
+Tailwind CSS: Untuk desain UI yang bersih dan layout grid yang responsif.
+
+Alpine.js: Mengelola interaksi ringan seperti notifikasi dismissible dan pembaruan UI tanpa reload.
+
+Localization: Laravel Carbon untuk pengaturan waktu transaksi.
+
+🔧 Panduan Instalasi
+Jika Anda ingin menjalankan proyek FreshMart ini secara lokal:
+
+Clone Repository:
+
+Bash
+git clone https://github.com/username/freshmart.git
+cd freshmart
+Install Dependencies:
+
+Bash
+composer install
+npm install && npm run build
+Setup Environment:
+
+Salin .env.example menjadi .env.
+
+Buat database bernama freshmart_db.
+
+Sesuaikan konfigurasi database di .env.
+
+Migrate & Seed:
+
+Bash
+php artisan key:generate
+php artisan migrate --seed
+Jalankan Aplikasi:
+
+Bash
+php artisan serve
+⚠️ Troubleshooting
+Gambar Produk Tidak Muncul: Pastikan Anda sudah menjalankan perintah php artisan storage:link agar file di folder storage dapat diakses secara publik.
+
+Error Session Keranjang: Jika item keranjang hilang setelah refresh, pastikan SESSION_DRIVER pada .env diatur ke file atau database.
+
+Dibuat dengan dedikasi untuk kesegaran harian Anda 🍏
