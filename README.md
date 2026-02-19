@@ -51,6 +51,7 @@ Badge Keranjang: Indikator jumlah item (angka merah) pada ikon keranjang di navi
 
 ## 🧠 Struktur Logika (Alur Data)
 Alur Pemilihan Produk (Create to Cart):
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/00887441-ee15-40f4-84d5-6eac6170bc44" />
 
 ```mermaid
 graph LR
