@@ -8,9 +8,7 @@ use Illuminate\Support\Str;
 
 class FruitSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+    
     public function run(): void
     {
         $fruits = [
