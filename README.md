@@ -54,15 +54,19 @@ Alur Pemilihan Produk (Create to Cart):
 
 ```mermaid
 graph LR
-    A[Pelanggan] -- Isi Form & Klik Pesan --> B(JavaScript Validation)
-    B -- Tampilkan Loading Jam Pasir --> C{Sistem Laravel}
-    C -- Simpan ke Tabel Orders --> D[(Database MySQL)]
-    D -- Sukses --> C
-    C -- Tampilkan Centang Hijau --> A
+    A[Client / Browser] -- HTTP Request --> B[Laravel API Routes]
+    B --> C[Controller]
+    C --> D[Model]
+    D --> E[(Database MySQL)]
+    E --> D
+    D --> C
+    C -- JSON Response --> A
 
-    subgraph "Server Side"
-    C
-    D
+    subgraph "Backend (Laravel)"
+        B
+        C
+        D
+        E
     end
 
 Frontend: Pengguna mengklik tombol "+ Keranjang" pada produk pilihan.
