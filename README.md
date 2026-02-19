@@ -52,6 +52,19 @@ Badge Keranjang: Indikator jumlah item (angka merah) pada ikon keranjang di navi
 ## 🧠 Struktur Logika (Alur Data)
 Alur Pemilihan Produk (Create to Cart):
 
+```mermaid
+graph LR
+    A[Pelanggan] -- Isi Form & Klik Pesan --> B(JavaScript Validation)
+    B -- Tampilkan Loading Jam Pasir --> C{Sistem Laravel}
+    C -- Simpan ke Tabel Orders --> D[(Database MySQL)]
+    D -- Sukses --> C
+    C -- Tampilkan Centang Hijau --> A
+
+    subgraph "Server Side"
+    C
+    D
+    end
+
 Frontend: Pengguna mengklik tombol "+ Keranjang" pada produk pilihan.
 
 Controller: CartController menangani request, memeriksa ketersediaan stok, dan memasukkan data ke dalam session atau tabel carts.
