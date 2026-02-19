@@ -53,23 +53,6 @@ Badge Keranjang: Indikator jumlah item (angka merah) pada ikon keranjang di navi
 Alur Pemilihan Produk (Create to Cart):
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/00887441-ee15-40f4-84d5-6eac6170bc44" />
 
-```mermaid
-graph LR
-    A[Client / Browser] -- HTTP Request --> B[Laravel API Routes]
-    B --> C[Controller]
-    C --> D[Model]
-    D --> E[(Database MySQL)]
-    E --> D
-    D --> C
-    C -- JSON Response --> A
-
-    subgraph "Backend (Laravel)"
-        B
-        C
-        D
-        E
-    end
-
 Frontend: Pengguna mengklik tombol "+ Keranjang" pada produk pilihan.
 
 Controller: CartController menangani request, memeriksa ketersediaan stok, dan memasukkan data ke dalam session atau tabel carts.
