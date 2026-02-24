@@ -17,9 +17,13 @@ Halaman depan dirancang untuk langsung menarik perhatian pengguna dengan Copywri
 <img width="1885" height="833" alt="image" src="https://github.com/user-attachments/assets/28db976e-30ff-415b-9f5b-bca90b19cd74" />
 
 Menampilkan koleksi buah lengkap dengan:
+
 Gambar produk
+
 Nama produk
+
 Harga
+
 Tombol tambah ke keranjang
 
 ## 🛒 Halaman Keranjang
@@ -34,26 +38,40 @@ Ringkasan Pesanan: Perhitungan subtotal dan total harga secara otomatis.
 Badge Keranjang: Indikator jumlah item (angka merah) pada ikon keranjang di navigasi atas.
 
 Menampilkan:
+
 Daftar produk yang dipilih
+
 Harga per item
+
 Jumlah
+
 Subtotal
+
 Total keseluruhan
+
 Tombol checkout
 
 ## ⭐️ Section Keunggulan
 
 Pengiriman Cepat
+
 Harga Terjangkau
+
 Kualitas Terjamin
 
 ## ✨ Fitur Utama
 ✅ Tampilan modern dan responsive
+
 ✅ Navigasi halaman (Home, Daftar Buah, Keranjang)
+
 ✅ Tambah produk ke keranjang
+
 ✅ Hitung subtotal dan total otomatis
+
 ✅ Notifikasi saat produk berhasil ditambahkan
+
 ✅ Badge jumlah item pada ikon keranjang
+
 ✅ UI bersih dan user-friend
 
 Headline Dinamis: "Keajaiban Buah Segar Setiap Hari" yang menekankan kualitas produk.
